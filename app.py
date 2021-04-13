@@ -5,9 +5,6 @@ import re
 import unicodedata
 import pickle
 
-nltk.download('stopwords') 
-nltk.download('wordnet') 
-
 stopword = nltk.corpus.stopwords.words('english')
 wn = nltk.WordNetLemmatizer()
 ps = nltk.PorterStemmer()
