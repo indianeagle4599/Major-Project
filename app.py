@@ -70,11 +70,11 @@ def clean_up_sentence(text):
     return text
 
 # Loading all the models
-reddit = pickle.load(open('/content/drive/MyDrive/Major_Project/Major_Project_Reddit.sav', 'rb'))
-corona = pickle.load(open('/content/drive/MyDrive/Major_Project/Major_Project_Twitter_Corona.sav', 'rb'))
-india = pickle.load(open('/content/drive/MyDrive/Major_Project/Major_Project_Twitter_India.sav', 'rb'))
-mill = pickle.load(open('/content/drive/MyDrive/Major_Project/Major_Project_Twitter_1.6M.sav', 'rb'))
-comb = pickle.load(open('/content/drive/MyDrive/Major_Project/Major_Project_Twitter_Combined.sav', 'rb'))
+reddit = pickle.load(open('Major_Project_Reddit.sav', 'rb'))
+corona = pickle.load(open('Major_Project_Twitter_Corona.sav', 'rb'))
+india = pickle.load(open('Major_Project_Twitter_India.sav', 'rb'))
+mill = pickle.load(open('Major_Project_Twitter_1.6M.sav', 'rb'))
+comb = pickle.load(open('Major_Project_Twitter_Combined.sav', 'rb'))
 
 # Creating list of all models
 models = [
