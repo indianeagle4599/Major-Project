@@ -147,7 +147,8 @@ def votePredict(ip):
 import streamlit as st
 
 st.title('Classification using Sentiment Analysis')
-
+st.write('')
+st.write('')
 st.write('This application is a simplistic way of suggesting the sentiment of any text. The application is capable of assigning:')
 st.write('\t-Positive \U0001F60A')
 st.write('\t-Neutral \U0001F610')
