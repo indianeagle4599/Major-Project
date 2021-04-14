@@ -154,7 +154,7 @@ st.write('\t-Positive \U0001F60A')
 st.write('\t-Neutral \U0001F610')
 st.write('\t-Negative \U0001F614')
 st.write('to a text provided to it.')
-st.write('It has been made using ML model trained on data of millions of tweets and thousands of Reddit comments.')
+st.write('It has been made using ML models trained on data of more than a million tweets and thousands of Reddit comments.')
 st.write('\n\nFeel free to try out as many different things as you want. My sentiment towards that is Positive \U0001F60A')
 
 ip = st.text_input('Enter text: ')
