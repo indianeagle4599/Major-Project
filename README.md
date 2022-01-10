@@ -1,4 +1,4 @@
-# Sentiment Analysis Major Project
+# Sentiment Analysis on Social Media
 
 This repository contains the codes and models used for creation and deployment of a Sentiment Analysis project based on text.
 
